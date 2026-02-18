@@ -99,11 +99,15 @@ mode(anemia_data_Hemoglobin)
 ```
 plot(density(anemia_data$Hemoglobin))
 ```
-#### histogram
+<img width="831" height="426" alt="Rplotden" src="https://github.com/user-attachments/assets/fe958c7e-189e-483c-90e3-5455f96a07d7" />#### histogram
 ```
 hist(anemia_data$Hemoglobin)
 ```
+<img width="831" height="426" alt="Rplothist" src="https://github.com/user-attachments/assets/8a0083e7-d638-4b00-acc1-9138a3c6905f" />
+
 ### boxplot
 ```
 boxplot(anemia_data$Hemoglobin)
 ```
+<img width="831" height="426" alt="Rplotbox" src="https://github.com/user-attachments/assets/44c039d9-1804-4b33-94a6-e453ebde0d34" />
+
