@@ -1,7 +1,12 @@
-# Blood Test Data Analysis in R
+#  Clinical Blood Test Data Analysis in R
   ## Project Overview
 This project explores a clinical blood dataset using R. The objective was to clean the data, calculate descriptive statistics (mean, median, and mode), and visualize the distribution of hemoglobin levels using histogram and density plots.
-Tools Used
+
+## Healthcare Relevance
+
+Hemoglobin is a key hematologic marker used in diagnosing anemia and evaluating overall patient health. Understanding its distribution and variability is essential in clinical decision-making and population health analysis.
+
+## Tools Used
 
 ## R
 
