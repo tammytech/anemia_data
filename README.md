@@ -43,6 +43,7 @@ Descriptive statistics
 
 Data visualization
 
+
 Custom function creation in R
 
 Exploratory Data Analysis (EDA)
@@ -54,3 +55,55 @@ Compare hemoglobin levels by gender
 Add boxplots for outlier detection
 
 Conduct basic hypothesis testing
+
+# script
+### install Packages
+``` R
+install.packages("tidyverse")
+library(tidyverse)
+```
+### Load dataset and check structure
+```
+anemia_data <- read.csv("anemia.csv")
+
+head(anemia_data)
+str(anemia_data)
+summary(anemia_data)
+```
+### Basic cleaning and check for missing values
+```
+colSums(is.na(anemia_data))
+```
+### remove rows with missing values
+```
+anemia_data <- na.omit(anemia_data)
+```
+### Check for duplicates
+```
+anemia_data <- distinct(anemia_data)
+anemia_data_Hemoglobin <- as.numeric(anemia_data$Hemoglobin)
+```
+### Mean
+```
+mean(anemia_data_Hemoglobin)
+```
+## #Median
+```
+median(anemia_data_Hemoglobin)
+```
+### Mode
+```
+mode(anemia_data_Hemoglobin)
+```
+### Density chart 
+```
+plot(density(anemia_data$Hemoglobin))
+```
+#### histogram
+```
+hist(anemia_data$Hemoglobin)
+```
+### boxplot
+```
+boxplot(anemia_data$Hemoglobin)
+```
