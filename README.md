@@ -6,6 +6,10 @@ This project explores a clinical blood dataset using R. The objective was to cle
 
 Hemoglobin is a key hematologic marker used in diagnosing anemia and evaluating overall patient health. Understanding its distribution and variability is essential in clinical decision-making and population health analysis.
 
+## Data file 
+Anemia Dataset 
+[(https://www.kaggle.com/datasets/biswaranjanrao/anemia-dataset?resource=download)]
+
 ## Tools Used
 
 ## R
